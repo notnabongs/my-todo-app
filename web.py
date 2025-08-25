@@ -16,7 +16,7 @@ st.title("My To-Do App")
 st.subheader ("This is my to-do app.")
 st.write("This app is to increase your productivity")
 
-#for the complete function we iterate for every todo
+#for the complete function we iterate for every to do
 for index, todo in enumerate(todos):
     #store the todos in checkboxs lines and asign them keys
     checkbox = st.checkbox(todo, key=todo)
